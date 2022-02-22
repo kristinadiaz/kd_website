@@ -1,9 +1,13 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import SplashPage from './components/SplashPage'
 
 export default function App() {
   return(
     <div>
-      <h1>App</h1>
+      <Routes>
+      <Route path='/' element={<SplashPage />} />      
+      </Routes>
     </div>
   )
 }
