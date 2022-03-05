@@ -1,9 +1,12 @@
 import React from 'react' 
+import mountains from '../images/splash-page-img.png'
+
+// console.log(mountains)
 
 export default function SplashPage() {
     return(
         <div>
-            <h1>Splash Page</h1>
+            <img src={mountains} alt='mountains' />
         </div>
     )
 }
